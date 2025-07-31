@@ -12,10 +12,10 @@ jobs:
     name: Run Test Suite
     
     steps:
-    - uses: actions/checkout@v3
+    - uses: actions/checkout@v4
     
     - name: Set up Python 3.9
-      uses: actions/setup-python@v3
+      uses: actions/setup-python@v4
       with:
         python-version: 3.9
     
@@ -42,10 +42,10 @@ jobs:
     needs: test-suite
     
     steps:
-    - uses: actions/checkout@v3
+    - uses: actions/checkout@v4
     
     - name: Set up Python 3.9
-      uses: actions/setup-python@v3
+      uses: actions/setup-python@v4
       with:
         python-version: 3.9
     
@@ -78,7 +78,7 @@ jobs:
     needs: train-and-quantize
     
     steps:
-    - uses: actions/checkout@v3
+    - uses: actions/checkout@v4
     
     - name: Download model artifacts
       uses: actions/download-artifact@v4
