@@ -209,12 +209,8 @@ This assignment demonstrates advanced MLOps practices with manual quantization i
    - Model training and quantization
    - Container build and testing
 
-### Key Assignment Achievements
-- **Manual Quantization**: Implemented from scratch without using libraries
-- **Model Optimization**: Achieved significant compression with minimal accuracy loss
-- **MLOps Best Practices**: Complete pipeline with testing, containerization, and CI/CD
-- **Performance Validation**: Exceeded minimum R² threshold requirements
-- **Code Quality**: Clean, documented, and tested implementation
+Name: Asit Jain
+Roll Number: G24AI1069
 
 ### Files Cleaned Up
 - Removed duplicate model files from root directory
