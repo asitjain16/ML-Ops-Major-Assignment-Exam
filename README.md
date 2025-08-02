@@ -143,11 +143,11 @@ docker run --rm mlops-pipeline python src/predict.py
 ## CI/CD Pipeline Status
 
 The pipeline automatically:
-- ✅ Runs comprehensive unit tests
-- ✅ Trains and validates model performance
-- ✅ Applies quantization with error analysis
-- ✅ Builds and tests Docker container
-- ✅ Uploads model artifacts for deployment
+- Runs comprehensive unit tests
+- Trains and validates model performance
+- Applies quantization with error analysis
+- Builds and tests Docker container
+- Uploads model artifacts for deployment
 
 ## Assignment Technical Implementation
 
@@ -174,17 +174,17 @@ The pipeline automatically:
 6. **Performance Analysis**: Quantization impact assessment
 
 ### Quality Assurance (Assignment Requirements)
-- ✅ R² Score threshold validation (> 0.5): **0.5758 achieved**
-- ✅ Quantization error analysis: **MAE < 0.01**
-- ✅ Model size reduction: **2.88x compression**
-- ✅ Automated testing: **8/8 tests passed**
-- ✅ Container deployment: **Successfully built and tested**
+- R² Score threshold validation (> 0.5): **0.5758 achieved**
+- Quantization error analysis: **MAE < 0.01**
+- Model size reduction: **2.88x compression**
+- Automated testing: **8/8 tests passed**
+- Container deployment: **Successfully built and tested**
 
 This assignment demonstrates advanced MLOps practices with manual quantization implementation for model optimization and deployment.
 
 ## Assignment Execution Summary
 
-### Completed Tasks ✅
+### Completed Tasks
 1. **Model Training**: Linear Regression on California Housing dataset
    - Training R²: 0.6126, Test R²: 0.5758
    - MSE Loss: 0.5559, RMSE: 0.7456
